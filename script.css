@@ -40,3 +40,10 @@ width: 5rem;
 font-weight: 700;
 
 }
+.todo-list{
+    text-decoration: none;
+}
+.todo-list-item{
+    display: flex;
+    justify-content: space-around;
+}
