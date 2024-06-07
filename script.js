@@ -13,5 +13,5 @@ button.addEventListener(`click`, () => {
     input.value = "";
     deleteBtn.addEventListener(`click`,()=>{
         list.removeChild(li);
-    } )
-})
+    } );
+    })
