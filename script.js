@@ -1,5 +1,5 @@
 const input = document.getElementById("input-task");
-const button = document.getElementById("btn");
+const button = document.getElementById("tast");
 const list = document.querySelector(".todo-list");
 
 button.addEventListener(`click`, () => {
@@ -10,5 +10,8 @@ button.addEventListener(`click`, () => {
     list.appendChild(li);
     li.appendChild(deleteBtn);
     deleteBtn.innerText ="Delete"
-
+    input.value = "";
+    deleteBtn.addEventListener(`click`,()=>{
+        list.removeChild(li);
+    } )
 })

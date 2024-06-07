@@ -46,4 +46,11 @@ font-weight: 700;
 .todo-list-item{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10px;
+}
+.todo-list-item button{
+    border-radius: 10px;
+    background-color: rgb(255, 251, 0);
+    cursor: pointer;
+    border: none;
 }
